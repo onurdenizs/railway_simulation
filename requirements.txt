@@ -1,0 +1,5 @@
+pandas
+osmnx
+matplotlib
+geopandas
+jupyter
