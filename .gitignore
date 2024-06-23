@@ -1,0 +1,5 @@
+# Ignore virtual environment directories
+venv/
+new_env/
+# Ignore wheel file
+*.whl
