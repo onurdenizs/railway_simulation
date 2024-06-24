@@ -1,17 +1,17 @@
 import pandas as pd
 
-# Define the file path for the cleaned data
-cleaned_data_path = (
-    "C:\\PhD\\Codes\\railway_simulation\\data\\processed\\linie_cleaned.csv"
-)
+# Load the dataset
+file_path = r"C:\PhD\Codes\railway_simulation\data\processed\stations_info.csv"
+stations_info = pd.read_csv(file_path)
 
-# Load the cleaned data
-cleaned_df = pd.read_csv(cleaned_data_path)
+# Count unique values for Didok numbers, station abbreviations, and station names
+unique_didok = stations_info["didok"].nunique()
+unique_abbr = stations_info["station_abbr"].nunique()
+unique_name = stations_info["stop_name"].nunique()
 
-# Inspect the first few lines of the cleaned data
-print("First few lines of the cleaned file:")
-print(cleaned_df.head())
+print(f"Number of unique Didok numbers: {unique_didok}")
+print(f"Number of unique station abbreviations: {unique_abbr}")
+print(f"Number of unique station names: {unique_name}")
 
-# Print the summary of the cleaned data
-print("Summary of the cleaned file:")
-print(cleaned_df.info())
+duplicate_didok = stations_info[stations_info.duplicated("didok", keep=False)]
+print(duplicate_didok)
