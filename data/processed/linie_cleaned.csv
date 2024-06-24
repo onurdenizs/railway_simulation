@@ -1,4 +1,4 @@
-LineId,LineName,Start_OPK,End_OPK,KM_Start,KM_End,Stationierung_Anfang,Stationierung_Ende,GeoShape,Latitude,Longitude
+line_id,line_name,start_opk,end_opk,km_start,km_end,stationierung_anfang,stationierung_ende,geo_shape,latitude,longitude
 9794,W'thur West Unterquerung - W'thur Toss,Winterthur West Unterquerung,Winterthur Toss,51.033,51.718,0,1000000,"{""coordinates"": [[8.71716739222, 47.4921217692], [8.70930994344, 47.4898063841]], ""type"": ""LineString""}",47.49096407665,8.71323866783
 9793,W'thur Eichliacker - W'thur Wylandbrucke,Winterthur Eichliacker (Vzw),Winterthur Wylandbrucke (Vzw),54.583,55.495,0,1000000,"{""coordinates"": [[8.71370075634, 47.4881074605], [8.71959354602, 47.4952673938]], ""type"": ""LineString""}",47.49168742715,8.71664715118
 9792,Tossmuhle Steigbach-W'thur Eichliacker,Tossmuhle Steigbach (Vzw),Winterthur Eichliacker (Vzw),53.415,54.583,0,1000000,"{""coordinates"": [[8.70653172432, 47.4788163018], [8.71370075634, 47.4881074605]], ""type"": ""LineString""}",47.48346188115,8.710116240329999
