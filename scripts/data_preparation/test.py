@@ -14,4 +14,4 @@ print(f"Number of unique station abbreviations: {unique_abbr}")
 print(f"Number of unique station names: {unique_name}")
 
 duplicate_didok = stations_info[stations_info.duplicated("didok", keep=False)]
-print(duplicate_didok)
+print(stations_info.info())
