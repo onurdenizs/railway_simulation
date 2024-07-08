@@ -39,26 +39,29 @@ This project aims to simulate railway networks, focusing initially on the Swiss 
 
 ## Getting Started
 
-1. Clone the repository:
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/onurdenizs/railway_simulation.git
+   cd railway_simulation
 
-```sh
-git clone https://github.com/onurdenizs/railway_simulation.git
-cd railway_simulation
-2. Set up the virtual environment and install dependencies:
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
-3. Run data preparation scripts to clean and process the data:
-python scripts/data_preparation/clean_and_process_csv.py
-python scripts/data_preparation/extract_line_info.py
-python scripts/data_preparation/extract_line_segments.py
-python scripts/data_preparation/linie_mit_polygon_processing.py
-python scripts/data_preparation/extract_stations_info.py
-Contributing
+2. **Set up the virtual environment and install dependencies**:
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install -r requirements.txt
+3. **Run data preparation scripts to clean and process the data**:
+   ```sh
+   python scripts/data_preparation/clean_and_process_csv.py
+   python scripts/data_preparation/extract_line_info.py
+   python scripts/data_preparation/extract_line_segments.py
+   python scripts/data_preparation/linie_mit_polygon_processing.py
+   python scripts/data_preparation/extract_stations_info.py
+
+## Contributing
 If you would like to contribute to this project, please fork the repository and use a feature branch. Pull requests are welcome.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Contact
+## Contact
 For any questions or suggestions, please contact [onurdnz@gmail.com].

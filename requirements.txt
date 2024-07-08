@@ -3,3 +3,4 @@ osmnx
 matplotlib
 geopandas
 jupyter
+PyQt5
