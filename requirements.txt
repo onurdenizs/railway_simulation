@@ -4,3 +4,4 @@ matplotlib
 geopandas
 jupyter
 PyQt5
+flask

@@ -1,5 +1,40 @@
-# Ignore virtual environment directories
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
 venv/
-new_env/
-# Ignore wheel file
-*.whl
+.venv/
+env.bak/
+venv.bak/
+
+# Flask
+instance/
+.webassets-cache
+
+# Pytest
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Data files
+data/
+figures/
